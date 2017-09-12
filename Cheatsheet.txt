@@ -1,0 +1,134 @@
+Git Cheatsheet
+
+Git Commands List and comments on them.
+
+1.  Command: git --version
+    Description: It prints the current git version installed on the system.
+
+
+2.  Command: git config --global user.name "[Name Here]"
+    Description: It changes(creates) a new user on the system.
+
+
+3.  Command: git config --global user.email "[Email Here]"
+    Description: It changes the email of the user.
+
+
+4.  Command: git config --list
+    Description: Shows current configuration including username and email.
+
+
+5.  Command: git config [settings name]
+    Description: Shows current value set for [settings name]
+
+
+6.  Command: git config user.name
+    Description: Get current username.
+
+
+7.  Command: git config user.email
+    Description: Get current user email.
+
+
+8.  Command: git help
+    Description: Prints all the commands and its short description
+
+
+9.  Command: git help commit
+    Description: Shows help about commit command.
+
+
+10. Command: git help [command]
+    Description: Shows help about any command.
+
+
+11. Command: git init
+    Description: Starts a new git repository in the current directory.
+
+
+12. Command: git add [filename]
+    Description: Adds the file with name [filename] to the staging area.
+
+
+13. Command: git add .
+    Description: Add all the files to staging area.
+
+
+14. Command: git commit -m "Your message here"
+    Description: Saves current state of project.
+
+
+15. Command: git log
+    Description: Shows commit history.
+
+
+16. Command: git log --author="[username]"
+    Description: Shows all commits from [username]
+
+
+17. Command: git status
+    Description: Shows all files that are not commited.
+
+
+18. Command: git diff
+    Desciption: Shows the difference between files in repo and files in working directory.
+
+
+19. Command: git diff --staged
+    Description: Shows the difference between files in repo and files in staging area.
+
+
+20. Command: git rm hello.txt
+    Description: Deletes the file named hello.txt
+
+
+21. Command: git mv hello.txt home.txt
+    Description: Rename the file hello.txt to home.txt
+
+
+22. Command: git mv hello.txt Folder/home.txt
+    Description: Rename and move at the same time.
+
+
+23. Command: git commit -am "[Message]"
+    Description: Commits without adding to staging area.
+
+
+24. Command: git checkout -- hello.txt
+    Description: Recovers a file named hello.txt from repo.
+
+
+25. Command: git checkout 01e303 -- home.txt
+    Description: Recovers a file name home.txt from the commit number 01e303 from repo
+
+
+26. Command: git push -u [remote_server]
+    Description: Uploads a project to remote server.
+
+
+27. Command: git branch iss53
+    Description: Create a new branch named iss53
+
+
+28. Command: git checkout iss53
+    Description: Switch to branch named iss53
+
+
+29. Command: git branch -d iss53
+    Description: Delete the branch named iss53
+
+
+30. Command: git checkout -b iss53
+    Description: Create a new branch named iss53 and switch to it.
+
+
+31. Command: git clone  https://github.com/libgit2/libgit2
+    Description: Creates a directory named libgit2 and puts all the files from specified url there.
+
+
+32. Command: git clone  https://github.com/libgit2/libgit2 mylibgit2
+    Description: Creates a directory named mylibgit2 and puts all the files from the specified url there.
+
+
+33. Command: git merge iss53
+    Description: Merges a branch with current branch.
