@@ -132,3 +132,19 @@ Git Commands List and comments on them.
 
 33. Command: git merge iss53
     Description: Merges a branch with current branch.
+
+
+34. Command: git fetch <remote>
+    Description: Imports all the commits from remote repo and stored as remote branches. Can be reviewed before merging.
+
+
+35. Command: git branch -r
+    Description: Shows all the remote branches.
+
+
+36. Command: git log origin/master
+    Description: Shows the branch named master imported from network origin.
+
+
+37. Command: git pull <remote>
+    Description: Fetches and Merges the branch from <remote>
